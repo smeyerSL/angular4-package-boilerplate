@@ -1,0 +1,1 @@
+export {SomeInterface, SomeClass} from './src/provider/configuration/index';
