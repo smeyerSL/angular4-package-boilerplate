@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "Angular 4 NPM package boilerplate",
+  "main": "bundles/ng4npmboilerplate.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "boilerplate",
+    "angular4"
+  ],
+  "author": "smeyerSL",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:smeyerSL/angular4-package-boilerplate.git"
+  },
+  "peerDependencies": {
+    "@angular/core": "^4.3.6",
+    "@angular/common": "^4.3.6",
+    "rxjs": "^5.4.3"
+  }
+}

@@ -11,7 +11,7 @@ If you want to publish to your own repositiory and not the npm default add the f
 Don't forget to bump the version (also in package.json in the dist folder).
 
 ## Add new external dependencies
-If you need to add more external dependencies the package needs to be added at two places besides the package.json. Let's say we want to add **@angular/http**. First you would have to extend the paths object in **tsconfig.json** like this
+If you need to add more external dependencies the package needs to be added at two places besides the two package.json (always consider the one in the dist folder, too. In that case it's the peer dependencies object). Let's say we want to add **@angular/http**. First you would have to extend the paths object in **tsconfig.json** like this
 ```
 "paths": {
   ...
